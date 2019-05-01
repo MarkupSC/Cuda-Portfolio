@@ -18,6 +18,7 @@
   --sky-dark:    #299ec5; /**/
   --pink:        #d74680;
   --yollow:      #ffdd99;
+  --yollow-dark: #ebc985; /**/
   --yollow-deep: #e5c689; /**/
   
   
@@ -32,9 +33,11 @@
 .text-orange {color: var(--orange)}
 .text-gray {color: var(--gray)}
 .text-blue {color: var(--blue)}
+.text-blue-light {color: var(--blue-light)}
 .text-sky {color: var(--sky)}
 .text-pink {color: var(--pink)}
 .text-yollow {color: var(--yollow)}
+.text-yollow-dark {color: var(--yollow-dark)}
 .text-blue-dark {color: var(--blue-dark)}
 
 
@@ -46,14 +49,16 @@
 .bg-orange {background-color: var(--orange)}
 .bg-gray {background-color: var(--gray)}
 .bg-blue {background-color: var(--blue)}
+.bg-blue-light {background-color: var(--blue-light)}
 .bg-sky {background-color: var(--sky)}
 .bg-pink {background-color: var(--pink)}
 .bg-yollow {background-color: var(--yollow)}
+.bg-yollow-dark {background-color: var(--yollow-dark)}
 .bg-blue-dark {background-color: var(--blue-dark)}
 
 
 
 
 .opacity {
-  color: rgba(0, 0, 0, 0.5;
+  color: rgba(197, 84, 84, 0.5);
 }
