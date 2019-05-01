@@ -1,17 +1,59 @@
 :root {
-    --parple: #87509c;
-    --green: #17c2a4;
-    --d-green: #15c7a8;
-    --orange: #eb7d4b;
-    --gray: #878787;
-    --blue: #3c5499;
-    --d-blue: #273a71;
-    --light-blue: #e7f1f8;
-    --icon-bg: #bdd1df;
-    --sky: #30bae7;
-    --pink: #d74680;
-    --yollow: #ffdd99;
-    --d-yollow: #e5c689;
-    --footer-blue: #344b8e;
-    --gradiant-btn: linear-gradient(#fe7570, #f6387d);
-  }
+  --white:       #ffffff;
+  --black:       #000000;
+  --black-o:     #00000060; /*40x4=100 */
+  --parple:      #87509c;
+  --green:       #17c2a4;
+  --green-deep:  #14a58c; /**/
+  --green-dark:  #15c7a8; /**/
+  --orange:      #eb7d4b;
+  --orange-deep: #c86a40; /**/
+  --gray:        #878787;
+  --blue:        #3c5499;
+  --blue-deep:   #273a71; /**/
+  --blue-dark:   #344b8e;
+  --blue-light:  #e7f1f8; /**/
+  --icon-bg:     #bdd1df;
+  --sky:         #30bae7;
+  --sky-dark:    #299ec5; /**/
+  --pink:        #d74680;
+  --yollow:      #ffdd99;
+  --yollow-deep: #e5c689; /**/
+  
+  
+  --gradiant-btn: linear-gradient(#fe7570, #f6387d);
+}
+
+/* Text Colors */
+.text-white {color: var(--white)}
+.text-black {color: var(--black)}
+.text-parple {color: var(--parple)}
+.text-green {color: var(--green)}
+.text-orange {color: var(--orange)}
+.text-gray {color: var(--gray)}
+.text-blue {color: var(--blue)}
+.text-sky {color: var(--sky)}
+.text-pink {color: var(--pink)}
+.text-yollow {color: var(--yollow)}
+.text-blue-dark {color: var(--blue-dark)}
+
+
+/* Background Colors */
+.bg-white {background-color: var(--white)}
+.bg-black {background-color: var(--black)}
+.bg-parple {background-color: var(--parple)}
+.bg-green {background-color: var(--green)}
+.bg-orange {background-color: var(--orange)}
+.bg-gray {background-color: var(--gray)}
+.bg-blue {background-color: var(--blue)}
+.bg-sky {background-color: var(--sky)}
+.bg-pink {background-color: var(--pink)}
+.bg-yollow {background-color: var(--yollow)}
+.bg-blue-dark {background-color: var(--blue-dark)}
+
+
+
+
+.opacity {
+  color: rgba(0, 0, 0, 0.5;
+}

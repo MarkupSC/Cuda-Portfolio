@@ -1,12 +1,13 @@
 body {
     background-color: var(--sky);
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
 }
 
 
 p {
     color: #6c6c6f;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1em;
 }
 
@@ -17,5 +18,5 @@ h4,
 h5,
 h6 {
     color: #323233;
-    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
 }

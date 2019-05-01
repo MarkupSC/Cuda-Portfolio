@@ -1,8 +1,11 @@
-.navbar-custom {
-    background-color: var(--parple);
+.nav-item:hover .nav-link {
+    color: var(--white);
+    background-color: var(--black-o);
+    border-radius: 0.25rem;
 }
 
-.c-font {
-    font-family: 'Lobster', cursive;
-    font-size: 35px;
+
+.nav-link {
+    font-size: 1.125rem;
+    text-transform: uppercase;
 }
