@@ -1,0 +1,8 @@
+.navbar-custom {
+    background-color: var(--parple);
+}
+
+.c-font {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
