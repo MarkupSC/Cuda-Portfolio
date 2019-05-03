@@ -1,0 +1,25 @@
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    color: #222;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8CF;
+    color: #222;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+}

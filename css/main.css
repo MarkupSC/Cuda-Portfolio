@@ -9,6 +9,7 @@
 /* Stylesheets */
 @import url('../css/src/core.css');
 @import url('../css/src/blocks.css');
+@import url('../css/src/isotope.css');
 
 /* Section */
 @import url('../css/src/navbar.css');

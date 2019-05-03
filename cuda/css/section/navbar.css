@@ -1,0 +1,17 @@
+.nav {
+    padding: 50px 0;
+}
+.nav ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+
+.nav-item:hover .nav-link {
+    color: var(--white);
+    background-color: var(--black-o);
+    border-radius: 0.25rem;
+}
+
+

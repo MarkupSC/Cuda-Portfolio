@@ -1,0 +1,24 @@
+/* Fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Titillium+Web'); */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+
+/*  Colors as variable */
+@import url('css/colors.css');
+
+/* Stylesheets */
+@import url('css/typography.css');
+@import url('css/isotope.css');
+
+/* Section */
+@import url('css/section/navbar.css');
+@import url('css/section/hero.css');
+@import url('css/section/services.css');
+@import url('css/section/meet-us.css');
+@import url('css/section/skills.css');
+@import url('css/section/portfolio.css');
+@import url('css/section/feadback.css');
+@import url('css/section/subscribe.css');
+@import url('css/section/footer.css');
+
+/* Responsive Stylesheet */

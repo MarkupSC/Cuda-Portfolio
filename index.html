@@ -297,7 +297,7 @@
             </div> <!-- /.row  01 -->
 
             <div class="row justify-content-md-center py-4">
-                <ul class="nav nav-pills mx-auto">
+                <!-- <ul class="nav nav-pills mx-auto">
                     <li class="nav-item mx-2">
                         <a class="nav-link active text-dark" href="#">Active</a>
                     </li>
@@ -307,11 +307,54 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link text-dark" href="#">Link</a>
                     </li>
-                </ul>
+                </ul> -->
+
+
+
+
+                <div id="filters" class="button-group"> <button class="button is-checked" data-filter="*">show
+                        all</button>
+                    <button class="button" data-filter=".metal">metal</button>
+                    <button class="button" data-filter=".transition">transition</button>
+                    <button class="button" data-filter=".alkali, .alkaline-earth">alkaline-earth</button>
+                    <button class="button" data-filter=":not(.transition)">not transition</button>
+                    <button class="button" data-filter=".metal:not(.transition)">transition</button>
+                    <button class="button" data-filter="numberGreaterThan50">number</button>
+                    <button class="button" data-filter="ium">name ends</button>
+                </div>
             </div>
+            <div class=" row justify-content-md-center">
+                <div class="element-item transition metal " data-category="transition">
+                    <img src="img/iso-1.png" alt="iso-1">
+                </div>
+                <div class="element-item metalloid " data-category="metalloid">
+                    <img src="img/iso-1.png" alt="iso-1">
+                </div>
+                <div class="element-item post-transition alkali " data-category="post-transition">
+                    <img src="img/iso-1.png" alt="iso-1">
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                    <img src="img/iso-1.png" alt="iso-1">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <a class="btn my-5 btn-green">Lode more projects</a>
+            </div>
+
         </div> <!-- /.Container -->
     </section>
     <!-- Our Portfolio End -->
+
+
+    <!-- Feedback start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                
+            </div> <!-- /.row -->
+        </div> <!-- /.Container -->
+    </section>
+    <!-- Feedback end -->
 
     <!-- External Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -319,6 +362,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/93ea36a138.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script>
+        var elem = document.querySelector('.grid');
+        var iso = new Isotope(elem, {
+            // options
+            itemSelector: '.grid-item',
+            layoutMode: 'fitRows'
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var iso = new Isotope('.grid', {
+            // options
+        });
+    </script>
 
 
 </body>
