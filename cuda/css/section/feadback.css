@@ -1,0 +1,59 @@
+#feedback {
+    background-color: var(--pink);
+}
+.feedback {
+    display: grid;
+    grid-template-columns: 150px auto;
+    border-radius: 10px;
+    padding: 20px 10px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+.feedback:hover {
+    background-color: rgba(0,0,0, 0.1);
+    box-shadow: 0 0 10px var(--yollow);
+}
+.avater img {
+    width: 100px;
+    height: 100px;
+    border: 0;
+    border-radius: 100%;
+    margin: 10px 0;
+    margin-right: 50px;
+}
+.feedback-content {
+    text-align: start !important;
+    color: #fff;
+}
+.feedback-content>p {
+    font-size: 21px;
+    font-style: italic;
+    text-align: left;
+    margin: 20px 0;
+}
+.feedback-content>p::before,
+.feedback-content>p::after {
+    font-size: 15px;
+    font-family: FontAwesome;
+    color: var(--yollow);
+}
+
+.feedback-content>p::before {
+    content: "\f10d";
+    position: relative;
+    top: -7px;
+}
+.feedback-content>p::after {
+    content: "\f10e";
+    position: relative;
+    bottom: 5px;
+}
+.person>h4,
+.person>p {
+    text-align: left;
+}
+.person>p {
+    color: var(--yollow);
+    font-size: 18px;
+}
+

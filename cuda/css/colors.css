@@ -19,6 +19,12 @@
   --yollow:      #ffdd99;
   --yollow-dark: #ebc985; /**/
   --yollow-deep: #e5c689; /**/
+
+  /****** ITEM-COLORS ******/
+  --counter-n:   #3c4761;
+  --counter-p:   #3c4761;
+  --portfolio:   #393939;
+  --footerBG:    #344b8e;
   
   
   --gradiant-btn: linear-gradient(#fe7570, #f6387d);

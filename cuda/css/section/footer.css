@@ -1,0 +1,17 @@
+#footer {
+    background-color: var(--footerBG);
+}
+#footer .navbar-nav { 
+    padding: 1.25rem 0 !important; 
+}
+
+#footer .nav-item:hover {
+    background: none !important;
+    /* color: var(--sky); */
+}
+
+#footer .nav-item:hover .nav-link,
+#footer .nav-link:active {
+    color: var(--sky);
+    background-color: transparent;
+}

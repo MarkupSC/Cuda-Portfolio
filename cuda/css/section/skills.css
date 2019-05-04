@@ -1,0 +1,35 @@
+#skills {
+    background-color: #fff;
+}
+
+.counter-box {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.counter {
+    font-size: 50px;
+    line-height: 8rem;
+    color: var(--counter-n);
+}
+.counter sub {
+    bottom: 0;
+    color: var(--counter-p);
+    font-size: 35px;
+}
+
+/****** COUNTER_BORDER_COLOR  ******/
+.b-sky {
+    border: 15px solid var(--sky);
+}
+.b-pink {
+    border: 15px solid var(--pink);
+}
+.b-green {
+    border: 15px solid var(--green);
+}
+.b-orange {
+    border: 15px solid var(--orange);
+}

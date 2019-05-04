@@ -10,15 +10,16 @@
 .card-body {
     padding: 0 10px;
 }
-
-#services .card {
+.card {
     min-width: 260px !important;
-    height: 25rem;
     background-color: transparent;
-    color: #fff;
     padding: 3.125rem 0;
     border: none;
     transition: 0.5s;
+}
+#services .card {
+    height: 25rem;
+    color: #fff;
 }
 #services .card:hover {
     background-color: rgba(225, 225, 225, 0.125);

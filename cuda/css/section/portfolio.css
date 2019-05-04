@@ -1,0 +1,31 @@
+#portfolio{
+    background-color: var(--yollow);
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#portfolio .item {
+    padding: 25px;
+    transition: 0.5s;
+}
+#portfolio .item:hover,
+#portfolio .item:hover .portfolio-title {
+    transform: scale(1.1);
+    color: var(--green-deep);
+    font-weight: bold;
+}
+.portfolio-title {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: var(--portfolio);
+    text-align: center;
+    margin: 1.875rem auto;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 500px) {
+    .portfolio {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
