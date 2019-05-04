@@ -1,0 +1,18 @@
+.btn {
+    text-transform: uppercase;
+    color: var(--white) !important;
+    font-size: 1.125rem;
+    padding: 0.5rem 3rem;
+}
+.btn-orange {
+    background-color: var(--orange);
+    box-shadow: 0px 3px var(--orange-deep);
+}
+.btn-green {
+    background-color: var(--green);
+    box-shadow: 0px 3px var(--green-deep);
+}
+.btn-sky {
+    background-color: var(--sky);
+    box-shadow: 0px 3px var(--sky-deep);
+}

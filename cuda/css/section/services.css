@@ -1,3 +1,26 @@
+#services {
+    background-color: var(--green);
+}
 .card-deck {
     margin: 0 auto;
+}
+.card .icon {
+    margin-bottom: 3.125rem;
+}
+.card-body {
+    padding: 0 10px;
+}
+
+#services .card {
+    min-width: 260px !important;
+    height: 25rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 3.125rem 0;
+    border: none;
+    transition: 0.5s;
+}
+#services .card:hover {
+    background-color: rgba(225, 225, 225, 0.125);
+    box-shadow: 0 0 25px var(--green-deep);
 }

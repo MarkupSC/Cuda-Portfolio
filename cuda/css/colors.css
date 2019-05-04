@@ -1,7 +1,6 @@
 :root {
   --white:       #ffffff;
   --black:       #000000;
-  --black-o:     #00000060; /*40x4=100 */
   --parple:      #87509c;
   --green:       #17c2a4;
   --green-deep:  #14a58c; /**/
@@ -15,7 +14,7 @@
   --blue-light:  #e7f1f8; /**/
   --icon-bg:     #bdd1df;
   --sky:         #30bae7;
-  --sky-dark:    #299ec5; /**/
+  --sky-deep:    #299ec5; /**/
   --pink:        #d74680;
   --yollow:      #ffdd99;
   --yollow-dark: #ebc985; /**/
