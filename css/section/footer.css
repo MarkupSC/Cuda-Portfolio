@@ -9,6 +9,9 @@
     background: none !important;
     /* color: var(--sky); */
 }
+#footer .nav-link{
+    text-transform: inherit;
+}
 
 #footer .nav-item:hover .nav-link,
 #footer .nav-link:active {
