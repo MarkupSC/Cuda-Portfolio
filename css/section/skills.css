@@ -8,13 +8,25 @@
     border-radius: 100%;
     margin: 10px auto;
     text-align: center;
+    display: flex;
+    background-image: -webkit-radial-gradient(green, red, 70%,)
+}
+.counter-bg {
+    width: 8rem;
+    height: 8rem;
+    background-color: #fff;
+    border: 0;
+    border-radius: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 .counter {
     font-size: 50px;
     line-height: 8rem;
     color: var(--counter-n);
 }
-.counter sub {
+.counter-box sub {
     bottom: 0;
     color: var(--counter-p);
     font-size: 35px;
@@ -22,14 +34,18 @@
 
 /****** COUNTER_BORDER_COLOR  ******/
 .b-sky {
-    border: 15px solid var(--sky);
+    /* border: 15px solid var(--sky); */
+    background-color: var(--sky);
 }
 .b-pink {
-    border: 15px solid var(--pink);
+    /* border: 15px solid var(--pink); */
+    background-color: var(--sky);
 }
 .b-green {
-    border: 15px solid var(--green);
+    /* border: 15px solid var(--green); */
+    background-color: var(--sky);
 }
 .b-orange {
-    border: 15px solid var(--orange);
+    /* border: 15px solid var(--orange); */
+    background-color: var(--sky);
 }
