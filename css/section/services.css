@@ -1,4 +1,8 @@
 #services {
+    /* background-image: url(../../img/bg/bg-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
     background-color: var(--green);
 }
 .card-deck {

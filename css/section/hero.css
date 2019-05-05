@@ -1,4 +1,9 @@
 #hero{
+    /* background-image: url(../../img/bg/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(283, 32%, 46%, 0.219); */
     background-color: var(--parple);
     padding-top: 40px;
     padding-bottom: 60px;
@@ -7,5 +12,5 @@
 .jumbotron {
     border-radius: 0 !important;
     margin-bottom: 0 !important;
-    background-color: var(--parple);
+    background-color: transparent;
 }

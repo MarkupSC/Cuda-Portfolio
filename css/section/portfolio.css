@@ -1,31 +1,76 @@
-#portfolio{
-    background-color: var(--yollow);
+#portfolio {
+  background-color: var(--yollow);
 }
-.portfolio {
-    display: grid;
-    grid-template-columns: auto auto;
+/******  BUTTON  ******/
+#portfolio .button {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 0 5px;
+  background-color: var(--yollow-deep);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  font-size: 16px;
+  cursor: pointer;
 }
-#portfolio .item {
-    padding: 25px;
-    transition: 0.5s;
+.button-group {
+  margin-top: 1.25rem;
+  margin-bottom: 3.75rem;
 }
-#portfolio .item:hover,
-#portfolio .item:hover .portfolio-title {
-    transform: scale(1.1);
-    color: var(--green-deep);
-    font-weight: bold;
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
 }
-.portfolio-title {
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    color: var(--portfolio);
-    text-align: center;
-    margin: 1.875rem auto;
-    transition: 0.5s;
+/****** ELEMENT_ITEM ******/
+#portfolio .element-item {
+  position: relative;
+  float: left;
+  width: 50%;
+  color: #262524;
+  border: 25px solid transparent;
+  transition: 0.5s;
+}
+#portfolio .element-item img {
+  width: 100%;
+}
+#portfolio .portfolio-title {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--portfolio);
+  text-align: center;
+  margin: 1.875rem auto;
+  transition: 0.5s;
+}
+/****** HOVER_EFFECTS ******/
+#portfolio .element-item:hover,
+#portfolio .element-item:hover #portfolio .portfolio-title {
+  transform: scale(1.1);
+  color: var(--green-deep);
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #fff;
+  color: #222;
+}
+.button:active,
+.button.is-checked {
+  background-color: #fff;
 }
 
-@media only screen and (max-width: 500px) {
-    .portfolio {
-        grid-template-columns: 1fr 1fr;
-    }
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/****** RESPONSE ******/
+@media (max-width: 800px) {
+  #portfolio.element-item {
+    width: 100%;
   }
+}
