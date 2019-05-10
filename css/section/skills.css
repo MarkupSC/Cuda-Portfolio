@@ -9,7 +9,7 @@
     margin: 10px auto;
     text-align: center;
     display: flex;
-    background-image: -webkit-radial-gradient(green, red, 70%,)
+    /* background-image: -webkit-radial-gradient(green, red, 70%,) */
 }
 .counter-bg {
     width: 8rem;
@@ -34,18 +34,18 @@
 
 /****** COUNTER_BORDER_COLOR  ******/
 .b-sky {
-    /* border: 15px solid var(--sky); */
-    background-color: var(--sky);
+    border: 15px solid var(--sky);
+    /* background-color: var(--sky); */
 }
 .b-pink {
-    /* border: 15px solid var(--pink); */
-    background-color: var(--sky);
+    border: 15px solid var(--pink);
+    /* background-color: var(--sky); */
 }
 .b-green {
-    /* border: 15px solid var(--green); */
-    background-color: var(--sky);
+    border: 15px solid var(--green);
+    /* background-color: var(--sky); */
 }
 .b-orange {
-    /* border: 15px solid var(--orange); */
-    background-color: var(--sky);
+    border: 15px solid var(--orange);
+    /* background-color: var(--sky); */
 }
