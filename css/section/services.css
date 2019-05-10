@@ -1,5 +1,6 @@
 #services {
-    background:linear-gradient(rgba(7, 114, 82, 0.7), rgba(7, 114, 82, 0.7)), url(../../img/bg/bg-2.jpg);
+    /* background:linear-gradient(rgba(7, 114, 82, 0.7), rgba(7, 114, 82, 0.7)), url(../../img/bg/bg-2.jpg); */
+    background: var(--green);
     height: 100%;
     width: 100%;
 }
